@@ -43,6 +43,8 @@ public class MainWeaponController : MonoBehaviour
     public int totalReserveBullets = 60;
     public int grenadeAmount = 2;
 
+    public BoxCollider quickKnifeCollider;
+
     private Animator animator;
     private float lastFired;
     private bool holdstered = false;
@@ -219,17 +221,20 @@ public class MainWeaponController : MonoBehaviour
             timer += Time.deltaTime;
             if (timer > longKnifeTime && !animator.GetCurrentAnimatorStateInfo(0).IsName("Knife Attack 2") && !player.isRunning && !aiming && !shooting && !holdstered && !longKnife && !animator.GetCurrentAnimatorStateInfo(0).IsName("Reload Ammo Left") && !animator.GetCurrentAnimatorStateInfo(0).IsName("Reload Out Of Ammo"))
             {
-                animator.Play("Knife Attack 1");
-                longKnife = true;
+                //animator.Play("Knife Attack 1");
+                //longKnife = true;
+                //quickKnifeCollider.enabled = false;
             }
 
         } else if (Input.GetKeyUp(KeyCode.V) && !animator.GetCurrentAnimatorStateInfo(0).IsName("Knife Attack 1") && !player.isRunning && !aiming && !shooting && !holdstered && !longKnife && !animator.GetCurrentAnimatorStateInfo(0).IsName("Reload Ammo Left") && !animator.GetCurrentAnimatorStateInfo(0).IsName("Reload Out Of Ammo"))
         {
             animator.Play("Knife Attack 2");
+            quickKnifeCollider.enabled = true;
         } else
         {
             longKnife = false;
             timer = 0f;
+            quickKnifeCollider.enabled = false;
         }
 
     }

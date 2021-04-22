@@ -60,33 +60,109 @@
     <Compile Include="Assets\Scripts\BulletCasing.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\BulletImpact.cs" />
-    <Compile Include="Assets\Low Poly FPS Pack - Free (Sample)\Components\Scripts\FPSController\FpsControllerLPFP.cs" />
     <Compile Include="Assets\Demo_Scene_Components\Scripts\DebrisScript.cs" />
+    <Compile Include="Assets\Scripts\AlarmLight.cs" />
+    <Compile Include="Assets\Scripts\Alarm.cs" />
     <Compile Include="Assets\Low Poly FPS Pack - Free (Sample)\Components\Scripts\Casings_&amp;_Projectiles\GrenadeScript.cs" />
-    <Compile Include="Assets\Scripts\MainWeaponController.cs" />
     <Compile Include="Assets\Scripts\Bullet.cs" />
-    <Compile Include="Assets\Scripts\PlayerCameraController.cs" />
+    <Compile Include="Assets\Scripts\ZombieSpawner.cs" />
     <Compile Include="Assets\Demo_Scene_Components\Scripts\ExplosiveBarrelScript.cs" />
     <Compile Include="Assets\Demo_Scene_Components\Scripts\TargetScript.cs" />
-    <Compile Include="Assets\Scripts\ExplosiveBarrelDebris.cs" />
+    <Compile Include="Assets\Scripts\SetCloseDoor.cs" />
     <Compile Include="Assets\Low Poly FPS Pack - Free (Sample)\Components\Scripts\Casings_&amp;_Projectiles\CasingScript.cs" />
-    <Compile Include="Assets\Low Poly FPS Pack - Free (Sample)\Components\Scripts\Misc\LookAtCamera.cs" />
-    <Compile Include="Assets\Low Poly FPS Pack - Free (Sample)\Components\Scripts\Weapon_Scripts\HandgunScriptLPFP.cs" />
     <Compile Include="Assets\Low Poly FPS Pack - Free (Sample)\Components\Scripts\Explosions_&amp;_Impacts\ExplosionScript.cs" />
     <Compile Include="Assets\Scripts\TotalAmmoCount.cs" />
-    <Compile Include="Assets\Scripts\MainAmmoPickup.cs" />
     <Compile Include="Assets\Low Poly FPS Pack - Free (Sample)\Components\Scripts\Explosions_&amp;_Impacts\ImpactScript.cs" />
     <Compile Include="Assets\Scripts\GrenadePickup.cs" />
-    <Compile Include="Assets\Scripts\Grenade.cs" />
     <Compile Include="Assets\Low Poly FPS Pack - Free (Sample)\Components\Scripts\Weapon_Scripts\AutomaticGunScriptLPFP.cs" />
-    <Compile Include="Assets\Scripts\Explosion.cs" />
     <Compile Include="Assets\Low Poly FPS Pack - Free (Sample)\Components\Scripts\Bullet\BulletScript.cs" />
+    <Compile Include="Assets\Scripts\CurrentAmmoCount.cs" />
+    <Compile Include="Assets\Scripts\ClosingDoor.cs" />
+    <Compile Include="Assets\Low Poly FPS Pack - Free (Sample)\Components\Scripts\FPSController\FpsControllerLPFP.cs" />
+    <Compile Include="Assets\Scripts\OpenDoorTrigger.cs" />
+    <Compile Include="Assets\Scripts\MainWeaponController.cs" />
+    <Compile Include="Assets\Scripts\ZombieRagdoll.cs" />
+    <Compile Include="Assets\Scripts\PlayerCameraController.cs" />
+    <Compile Include="Assets\Scripts\ExplosiveBarrelDebris.cs" />
+    <Compile Include="Assets\Scripts\Zombie.cs" />
+    <Compile Include="Assets\Scripts\NextLevelTrigger.cs" />
+    <Compile Include="Assets\Low Poly FPS Pack - Free (Sample)\Components\Scripts\Misc\LookAtCamera.cs" />
+    <Compile Include="Assets\Low Poly FPS Pack - Free (Sample)\Components\Scripts\Weapon_Scripts\HandgunScriptLPFP.cs" />
+    <Compile Include="Assets\Scripts\MainAmmoPickup.cs" />
+    <Compile Include="Assets\Scripts\OpeningDoor.cs" />
+    <Compile Include="Assets\Scripts\Grenade.cs" />
+    <Compile Include="Assets\Scripts\Explosion.cs" />
     <Compile Include="Assets\Scripts\SecondaryWeaponController.cs" />
     <Compile Include="Assets\Scripts\Target.cs" />
-    <Compile Include="Assets\Scripts\CurrentAmmoCount.cs" />
-    <Compile Include="Assets\Scripts\Zombie.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
+    <Compile Include="Assets\Scripts\Button.cs" />
+    <Compile Include="Assets\Scripts\TotalGrenadeCount.cs" />
+    <Compile Include="Assets\Scripts\StartingDoorOpen.cs" />
+    <Compile Include="Assets\Scripts\SpawnerTrigger.cs" />
+    <Compile Include="Assets\Scripts\objective1.cs" />
+    <Compile Include="Assets\Scripts\objective2.cs" />
+    <Compile Include="Assets\Scripts\objective3.cs" />
+    <Compile Include="Assets\Scripts\objective4.cs" />
+    <Compile Include="Assets\Scripts\objective5.cs" />
   </ItemGroup>
   <ItemGroup>
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
     <Reference Include="UnityEngine">
       <HintPath>Y:\Unity\2020.2.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -657,6 +733,9 @@
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+    </Reference>
     <Reference Include="com.unity.quicksearch">
       <HintPath>Library\ScriptAssemblies\com.unity.quicksearch.dll</HintPath>
     </Reference>
@@ -666,6 +745,9 @@
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
@@ -674,6 +756,12 @@
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>

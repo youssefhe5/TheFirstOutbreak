@@ -66,6 +66,11 @@ public class ExplosiveBarrel : MonoBehaviour
                 hit.gameObject.GetComponent<ExplosiveBarrel>().explode = true;
             }
 
+            if (hit.gameObject.tag.Equals("Zombie"))
+            {
+                hit.gameObject.GetComponent<Zombie>().die = true;
+            }
+
             Destroy(gameObject);
 
         }

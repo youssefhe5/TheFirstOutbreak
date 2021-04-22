@@ -102,6 +102,11 @@ public class Grenade : MonoBehaviour
 
             }
 
+            if (hit.gameObject.tag.Equals("Zombie"))
+            {
+                hit.gameObject.GetComponent<Zombie>().die = true;
+            }
+
         }
     }
 }

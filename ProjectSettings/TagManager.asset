@@ -10,6 +10,7 @@ TagManager:
   - Grenade
   - Debris
   - Zombie
+  - Knife
   layers:
   - Default
   - TransparentFX
