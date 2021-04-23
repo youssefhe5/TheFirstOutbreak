@@ -24,6 +24,7 @@ public class objective3 : MonoBehaviour
         {
             animator.SetBool("Push", true);
             this.GetComponent<Renderer>().material = green;
+            objective3Complete = true;
         }
         else
         {

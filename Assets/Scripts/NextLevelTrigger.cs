@@ -10,7 +10,7 @@ public class NextLevelTrigger : MonoBehaviour
         if (other.tag.Equals("Player"))
         {
             //Change to next Scence
-            SceneManager.LoadScene("Level 1");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 }
