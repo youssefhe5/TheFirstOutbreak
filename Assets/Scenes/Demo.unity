@@ -743,7 +743,7 @@ Transform:
   - {fileID: 729304731}
   - {fileID: 445183010}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1565678728
 GameObject:
@@ -776,7 +776,7 @@ Transform:
   - {fileID: 163063704}
   - {fileID: 820683019}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1573026742
 GameObject:
@@ -1017,7 +1017,7 @@ Transform:
   - {fileID: 243358583}
   - {fileID: 202948487}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1898177432 stripped
 GameObject:
@@ -1041,24 +1041,6 @@ MonoBehaviour:
   explode: 0
   explosionRadius: 5
   explosionForce: 40000
---- !u!1 &1940311393 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3686410933742416457, guid: 527cdd5357765fd47acb6b94a05c780c, type: 3}
-  m_PrefabInstance: {fileID: 4737169153277376471}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &1940311394
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1940311393}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Size: {x: 0.39484224, y: 0.334795, z: 1.1974964}
-  m_Center: {x: 0.10390122, y: 2.3775368, z: 1.2090921}
 --- !u!1001 &1957120897
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1211,7 +1193,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1082147130687029767, guid: 6f3a9d2421be50a4fb2eb3cfc7a7f50d, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1082147130687029767, guid: 6f3a9d2421be50a4fb2eb3cfc7a7f50d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1255,11 +1237,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f3a9d2421be50a4fb2eb3cfc7a7f50d, type: 3}
---- !u!1 &2321628763734322270 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4956452653541946017, guid: 0fd97183c868abf49b3576b8f14fd988, type: 3}
-  m_PrefabInstance: {fileID: 7273540322580127487}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2322378745266597638 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4956898897740313081, guid: 0fd97183c868abf49b3576b8f14fd988, type: 3}
@@ -1326,79 +1303,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d78b7a0ce0e5f54ba2ad129fef522ce, type: 3}
---- !u!1001 &4737169153277376471
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1940311394, guid: 527cdd5357765fd47acb6b94a05c780c, type: 3}
-      propertyPath: m_Speed
-      value: 4.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3686410933742416457, guid: 527cdd5357765fd47acb6b94a05c780c, type: 3}
-      propertyPath: m_Name
-      value: Zombie
-      objectReference: {fileID: 0}
-    - target: {fileID: 3686410933742416503, guid: 527cdd5357765fd47acb6b94a05c780c, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 2321628763734322270}
-    - target: {fileID: 3686410933742416503, guid: 527cdd5357765fd47acb6b94a05c780c, type: 3}
-      propertyPath: attackCollider
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3686410933742416503, guid: 527cdd5357765fd47acb6b94a05c780c, type: 3}
-      propertyPath: chasingDistance
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4063112844779284723, guid: 527cdd5357765fd47acb6b94a05c780c, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4063112844779284723, guid: 527cdd5357765fd47acb6b94a05c780c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 4063112844779284723, guid: 527cdd5357765fd47acb6b94a05c780c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.979
-      objectReference: {fileID: 0}
-    - target: {fileID: 4063112844779284723, guid: 527cdd5357765fd47acb6b94a05c780c, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 8.074
-      objectReference: {fileID: 0}
-    - target: {fileID: 4063112844779284723, guid: 527cdd5357765fd47acb6b94a05c780c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4063112844779284723, guid: 527cdd5357765fd47acb6b94a05c780c, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4063112844779284723, guid: 527cdd5357765fd47acb6b94a05c780c, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4063112844779284723, guid: 527cdd5357765fd47acb6b94a05c780c, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4063112844779284723, guid: 527cdd5357765fd47acb6b94a05c780c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4063112844779284723, guid: 527cdd5357765fd47acb6b94a05c780c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4063112844779284723, guid: 527cdd5357765fd47acb6b94a05c780c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 527cdd5357765fd47acb6b94a05c780c, type: 3}
 --- !u!1001 &7273540322580127487
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1478,6 +1382,10 @@ PrefabInstance:
         inspect weapon\n- Press H key to holster, and H again to take out \n\nMelee:\n\n-
         V key to knife\n\nGrenade:\n\n- Press G to throw a grenade\n\n\n\n\n\n\n\n\n\n"
       objectReference: {fileID: 0}
+    - target: {fileID: 5175132793000016087, guid: 0fd97183c868abf49b3576b8f14fd988, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 98.3
+      objectReference: {fileID: 0}
     - target: {fileID: 7274498522678484592, guid: 0fd97183c868abf49b3576b8f14fd988, type: 3}
       propertyPath: quickKnifeCollider
       value: 
@@ -1493,7 +1401,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8861308696090171953, guid: 1aa92b5c7727e7a4797c8ecfdf1ace08, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8861308696090171953, guid: 1aa92b5c7727e7a4797c8ecfdf1ace08, type: 3}
       propertyPath: m_LocalPosition.x
