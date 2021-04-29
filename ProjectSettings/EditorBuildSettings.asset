@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: aef15a90d11ee2a45885dc11e6f7422b
+  - enabled: 1
+    path: Assets/Scenes/Levels.unity
+    guid: bc2d32f924010d14ca955158594fdfd1
+  - enabled: 1
     path: Assets/Scenes/Demo.unity
     guid: 70ff55573585bf645913522551b48877
   - enabled: 1
@@ -15,15 +21,21 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 1.unity
     guid: a0ea7642ae3e3a441bce5b4cf35df958
   - enabled: 1
+    path: Assets/Scenes/Level 2.unity
+    guid: 3bfc53f35e861854b815a9f3e523d6ed
+  - enabled: 1
+    path: Assets/Scenes/EscapeFacility.unity
+    guid: e02302f0d9616da468bb0aff780b3d11
+  - enabled: 1
     path: Assets/Scenes/DestroyFacility.unity
     guid: d22fab2a4867b544591caaefe606f75e
-  - enabled: 1
-    path: Assets/Scenes/Death.unity
-    guid: 21a177a0ade587941b87860fd6ce4b07
   - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: cc5c35f492005d947816d7b79c86a4fa
   - enabled: 1
-    path: Assets/Scenes/EscapeFacility.unity
-    guid: e02302f0d9616da468bb0aff780b3d11
+    path: Assets/Scenes/Death.unity
+    guid: 21a177a0ade587941b87860fd6ce4b07
+  - enabled: 0
+    path: Assets/Scenes/LoadingScreen.unity
+    guid: 45682b86fd6b64f40a0efb6468135c44
   m_configObjects: {}

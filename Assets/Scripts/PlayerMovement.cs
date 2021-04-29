@@ -5,7 +5,6 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public MainWeaponController mainWeaponController;
-    public SecondaryWeaponController secondaryWeaponController;
 
     public bool isWalking;
     public bool isRunning;
@@ -16,6 +15,8 @@ public class PlayerMovement : MonoBehaviour
     //Audio clips
     public AudioClip walkingSound;
     public AudioClip runningSound;
+
+    public GameObject pauseMenu;
 
     [SerializeField]
     private float walkingSpeed = 4f;
@@ -44,8 +45,11 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Jump();
-        StartSound();
+        if (!pauseMenu.activeSelf)
+        {
+            Jump();
+            StartSound();
+        }
     }
 
     private void FixedUpdate()

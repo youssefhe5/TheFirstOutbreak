@@ -9,6 +9,7 @@ public class Button : MonoBehaviour
     private Animator animator;
 
     private bool canPressButton = false;
+    internal object interactable;
 
     // Start is called before the first frame update
     void Start()

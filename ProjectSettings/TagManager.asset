@@ -11,6 +11,11 @@ TagManager:
   - Debris
   - Zombie
   - Knife
+  - NAND
+  - Music
+  - Level 1
+  - Level 2
+  - Level 3
   layers:
   - Default
   - TransparentFX

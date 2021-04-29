@@ -45,6 +45,8 @@ public class MainWeaponController : MonoBehaviour
 
     public BoxCollider quickKnifeCollider;
 
+    public GameObject pauseMenu;
+
     private Animator animator;
     private float lastFired;
     private bool holdstered = false;
@@ -79,15 +81,20 @@ public class MainWeaponController : MonoBehaviour
     void Update()
     {
 
-        Walk();
-        Run();
-        HolsterWeapon();
-        InspectWeapon();
-        AimDownSight();
-        Shoot();
-        Knife();
-        Reload();
-        ThrowGrenade();
+        if (!pauseMenu.activeSelf)
+        {
+            Walk();
+            Run();
+            HolsterWeapon();
+            InspectWeapon();
+            AimDownSight();
+            Shoot();
+            Knife();
+            Reload();
+            ThrowGrenade();
+        }
+
+        
     }
 
     void Walk()

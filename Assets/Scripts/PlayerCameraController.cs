@@ -5,14 +5,16 @@ using UnityEngine;
 public class PlayerCameraController : MonoBehaviour
 {
 
-    [SerializeField]
+    
     public float smoothing;
-    [SerializeField]
+    
     public float lookSensitivity;
-    [SerializeField]
+    
     public float minYRotation = -90;
-    [SerializeField]
+
     public float maxYRotation = 90;
+
+    public GameObject pauseMenu;
 
     private GameObject player;
     private Vector2 smoothedVelocity;
@@ -29,8 +31,11 @@ public class PlayerCameraController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        RotateCamera();
+        if (!pauseMenu.activeSelf)
+        {
+            RotateCamera();
+        }
+        
         
     }
 

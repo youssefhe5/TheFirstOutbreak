@@ -11,7 +11,7 @@ public class ExitSceneListener : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Escape))
         {
-            SceneManager.LoadScene("Demo");
+            SceneManager.LoadScene("MainMenu");
         }
     }
 }

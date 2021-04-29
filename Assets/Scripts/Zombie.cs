@@ -1,9 +1,12 @@
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class Zombie : MonoBehaviour
 {
+
+    public AudioClip[] zombieSounds;
 
     public int health = 100;
 
@@ -20,11 +23,18 @@ public class Zombie : MonoBehaviour
 
     private Animator animator;
 
+    private AudioSource source;
+
+    private float timeToMakeNoises = 5f;
+
 
     // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
+        source = GetComponent<AudioSource>();
+        timeToMakeNoises = Random.Range(5f, 20f);
+        StartCoroutine(MakeZombieNoises());
     }
 
     // Update is called once per frame
@@ -78,5 +88,14 @@ public class Zombie : MonoBehaviour
         {
             health -= 5;
         }
+    }
+
+    IEnumerator MakeZombieNoises()
+    {
+        yield return new WaitForSeconds(timeToMakeNoises);
+        timeToMakeNoises = Random.Range(5f, 30f);
+        source.clip = zombieSounds[Random.Range(0,8)];
+        source.Play();
+        StartCoroutine(MakeZombieNoises());
     }
 }
