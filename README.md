@@ -1,7 +1,7 @@
 # TheFirstOutbreak
 The First Outbreak is a zombie FPS where you must escape a secret facility overrun by zombies! Navigate the narrow halls of the facility and choose your fate as you run for your life!
 
-#Controls
+# Controls
 
 Movement:
 
